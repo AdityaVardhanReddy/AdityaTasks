@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+</head>
+<body>
+    <form action="infoform.php/post" method="post">
+        <table>
+            <tr>
+                <td><label for="full_name">Full Name:</label></td>
+                <td><input type="text" placeholder="enter your fullname" name="full_name" id="full_name" required ></td>
+            </tr>
+            <tr>
+                <td><label for="user_name">Username:</label></td>
+                <td><input type="text" placeholder="enter your username" name="user_name" id="user_name" required ></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" placeholder="enter your password" name="password" id="password" required ></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">Re Password:</label></td>
+                <td><input type="password" placeholder="enter your password" name="repassword" id="repassword" required ></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" placeholder="enetr your address" name="address" id="address" required ></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" placeholder="enter your age" name="age" id="age"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
